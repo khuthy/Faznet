@@ -15,7 +15,7 @@ function insertAfter(referenceNode, newNode) {
 
 /* Post function that communicate with the PHP FILE - The type Json has been specified */
 function post(data) {
-    xhr.open("POST", "http://localhost/Faznet/API/call.php", true); //database api
+    xhr.open("POST", "http://faznet.co.za/networkcheck/API/call.php", true); //database api
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.send(data);
 }
