@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input#address-input {
+    max-width: 60%;
+    height: 10%;
+    border-radius: 0 !important;
+    padding: 0 1em;
+    outline: none;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 20%;
+    border-radius: 50px;
+}
+
+.fix-btn {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    height: 10%;
+    width: 10%;
+    border-radius: 0 !important;
+    z-index: 3;
+    border-radius: 50px;
+}

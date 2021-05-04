@@ -1,0 +1,46 @@
+.navigation {
+    height: 80px;
+    background: #fff;
+}
+
+.nav {
+    margin: 0 auto;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.nav-items {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items>li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.nav-items>li>a {
+    color: rgb(161, 161, 161);
+}
+
+.nav-items .btn {
+    color: #fff;
+    background: rgb(94, 94, 255);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.nav-items .btn:active {
+    background: rgb(38, 38, 240);
+}
+
+.nav-items>li:nth-child(2) {
+    border-right: 1px solid rgb(235, 235, 235);
+}

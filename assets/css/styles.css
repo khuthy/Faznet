@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans", Verdana, Tahoma, serif !important;
+}
+
+#col-mac {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#col-mac h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    color: #00d3a7;
+}
+
+#one,
+#two,
+#three {
+    margin-top: 40px;
+    height: 350px;
+    width: 100%;
+    /*background-image: url(../../assets/img/fibre.jpg);*/
+    background-size: cover;
+}
+
+#custom-card {
+    margin-bottom: 10px;
+}
+
+.max {
+    background: linear-gradient(-45deg, #00d3a7, #02c0d0);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input#address-input {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid #ddd;
+    outline: none;
+}
